@@ -10,4 +10,5 @@ png(filename="plot1.png", width=480, height=480, bg="white")
 # create histogram
 hist(ds1$Global_active_power, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
 
+# close png file
 dev.off()
